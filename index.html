@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Category Books</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="logo">
+    <div class="logo">Books24</div>
+</div>
+
+    <nav class="one">
+        <ul class="topmenu">
+            <li><a href="http://cb.loc/">Home</a></li>
+
+            <li><a href="#">Authors<i class="fa fa-angle-down"></i></a>
+                <ul class="submenu">
+                    <li>    <input type="button" onclick="initAuthor()" value="Joanne Rowling" class="button"/>
+                        </a></li>
+                    <li>    <input type="button" onclick="initAuthor2()" value="Marvel" class="button"/>
+                        </a></li>
+                    <li>    <input type="button" onclick="initAuthor3()" value="Robert Kane" class="button"/>
+                        </a></li>
+                </ul>
+            </li>
+            <li><a href="#">Genres<i class="fa fa-angle-down"></i></a>
+                <ul class="submenu">
+                    <li>    <input type="button" onclick="initFantasy()" value="Fantasy" class="button"/>
+                        </a></li>
+                    <li>    <input type="button" onclick="initComics()" value="Comics" class="button"/>
+                        </a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="http://cb.loc/cart.html" class="cart">Cart</a>
+            <li><a href="" class="clearcart">Clear Cart</a>
+            </li>
+            <li><a href="http://cb.loc/admin/admin.html" class="admin">Admin</a></li>
+        </ul>
+    </nav>
+
+<header></header>
+<main>
+    <div class="mini-cart mini"></div>
+    <div class="authors"></div>
+    <div class="books content"></div>
+
+</main>
+<footer></footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>

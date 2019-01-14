@@ -1,0 +1,227 @@
+.body{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+.logo {
+    color: rebeccapurple;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {margin:0;}
+h2 {
+    font-family: monospace;
+    color: #606060;
+}
+nav {
+    width: 100%;
+    margin: 0 auto 30px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.topmenu > li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+.topmenu > li:last-child {
+    margin-right: 0;
+}
+a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Lora', serif;
+    transition: .5s linear;
+}
+.fa {
+    font-family: "FontAwesome";
+    color: inherit;
+    padding-left: 10px;
+}
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.one ul {
+    background: #ECDAD6;
+}
+.one ul a {
+    color: #222869;
+}
+.one .submenu {
+    display: none;
+    background: #b19891;
+}
+.one ul li:hover .submenu {
+    display: block;
+}
+.two ul {
+    background: #D4E7EE;
+}
+.two ul a {
+    color: #29838C;
+}
+.two .submenu {
+    visibility: hidden;
+    background: #ADC0CE;
+}
+.two ul li:hover .submenu {
+    visibility: visible;
+}
+.three ul {
+    background: #E4EFD1;
+}
+.three ul a {
+    color: #74924C;
+}
+.three .submenu {
+    visibility: hidden;
+    opacity: 0;
+    background: #BAD78B;
+}
+.three ul li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+.four ul {
+    background: #FFD7A7;
+}
+.four .submenu {
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: space;
+}
+.four ul li:hover .submenu {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+}
+.four ul a {
+    color: #9B4222;
+}
+.five ul {
+    background: #FFE075;
+}
+.five ul a {
+    color: #A87B31;
+}
+.five .submenu {
+    background: space;
+}
+.submenu li a {
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    color: white;
+}
+
+.cart {
+    margin-left: 650px;
+}
+
+.login{
+    text-align: right;
+    margin-left: 20px;
+}
+.register{
+    text-align: right;
+    margin-left: 5px;
+}
+
+.button {
+    background: #ECDAD6;
+}
+
+.itembook {
+    width: 220px;
+    height: 385px;
+    border: 1px solid #c4c4c4;
+    margin: 5px;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.itembook .name {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.itembook .price {
+    font-size: 1.2rem;
+
+}
+.itembook .order {
+    font-size: 20px;
+    margin-top: 2px;
+    background: rebeccapurple;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.itembook .order:hover {
+    background: #c4c4c4;
+}
+.itembook .order:active {
+    background: red;
+}
+
+.itemauthor {
+    font-size: 10px;
+}
+
+.main-cart {
+
+    margin-left: 60px;
+}
+
+.books::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.sortbook {
+    color: blue;
+    padding: 10px;
+}
+
+.namecart {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.desc {
+    margin-left: 15px;
+
+}
+
+.mini {
+    margin-left: 1250px;
+}
+
+
+
+
+
